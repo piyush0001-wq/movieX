@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,EAAE,CAAC;EACD,MAAM,EAAE,YAAY;EACpB,cAAc,EAAE,GAAG;EACnB,UAAU,EAAE,MAAM;EAClB,KAAK,EAAE,uBAAuB;CAC/B;;AAED,AAAA,SAAS,CAAC;EACR,OAAO,EAAE,IAAI;EACb,SAAS,EAAE,IAAI;EACf,eAAe,EAAE,YAAY;CAC9B;;AACD,MAAM,EAAE,SAAS,EAAE,KAAK;EACtB,AAAA,EAAE,CAAC;IACD,SAAS,EAAE,IAAI;GAChB",
+    "sources": [
+        "trending.scss"
+    ],
+    "names": [],
+    "file": "trending.css"
+}

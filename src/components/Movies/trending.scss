@@ -1,0 +1,17 @@
+h2 {
+  margin: 20px 0 0 0px;
+  letter-spacing: 3px;
+  text-align: center;
+  color: rgba(97, 97, 97, 0.514);
+}
+
+.trending {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+@media (max-width: 600px) {
+  h2 {
+    font-size: 18px;
+  }
+}

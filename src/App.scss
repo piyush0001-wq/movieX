@@ -1,0 +1,64 @@
+* {
+  scroll-behavior: smooth;
+}
+
+.App {
+  min-height: 100vh;
+  background: #0c1013;
+  color: white;
+  .title {
+    text-align: center;
+    padding: 20px 0 0 0;
+    .title_link {
+      text-decoration: none;
+      color: white;
+      &:hover {
+        color: grey;
+        transition: 0.3s ease;
+      }
+    }
+  }
+  .search {
+    display: flex;
+    justify-content: space-between;
+    .link {
+      text-decoration: none;
+      color: white;
+      margin-left: 20px;
+
+      &:hover {
+        color: grey;
+        transition: 0.3s ease;
+      }
+    }
+    .searchType {
+      display: flex;
+      justify-content: space-around;
+      margin: 0 20px;
+      align-items: center;
+      width: 15em;
+      font-size: 20px;
+      cursor: pointer;
+      p {
+        .link {
+          text-decoration: none;
+          color: white;
+          &:hover {
+            color: grey;
+            transition: 0.3s ease;
+          }
+        }
+      }
+    }
+  }
+}
+@media (max-width: 600px) {
+  .search {
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    .link {
+      font-size: 18px;
+    }
+  }
+}

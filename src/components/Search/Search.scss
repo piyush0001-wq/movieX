@@ -1,0 +1,30 @@
+.input {
+  display: flex;
+  justify-content: space-between;
+  width: 300px;
+  margin: 20px auto;
+  background: black;
+  padding: 10px 20px;
+  border-radius: 50px;
+  p {
+    cursor: pointer;
+  }
+  input {
+    width: 200px;
+    padding: 5px 10px;
+    background: transparent;
+    color: white;
+    outline: none;
+    border: none;
+  }
+}
+.search {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+@media (max-width: 600px) {
+  .input {
+    width: 200px;
+  }
+}

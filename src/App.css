@@ -1,0 +1,91 @@
+* {
+  scroll-behavior: smooth;
+}
+
+.App {
+  min-height: 100vh;
+  background: #0c1013;
+  color: white;
+}
+
+.App .title {
+  text-align: center;
+  padding: 20px 0 0 0;
+}
+
+.App .title .title_link {
+  text-decoration: none;
+  color: white;
+}
+
+.App .title .title_link:hover {
+  color: grey;
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
+}
+
+.App .search {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.App .search .link {
+  text-decoration: none;
+  color: white;
+  margin-left: 20px;
+}
+
+.App .search .link:hover {
+  color: grey;
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
+}
+
+.App .search .searchType {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin: 0 20px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 15em;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.App .search .searchType p .link {
+  text-decoration: none;
+  color: white;
+}
+
+.App .search .searchType p .link:hover {
+  color: grey;
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
+}
+
+@media (max-width: 600px) {
+  .search {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .search .link {
+    font-size: 18px;
+  }
+}
+/*# sourceMappingURL=App.css.map */

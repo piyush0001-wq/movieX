@@ -1,0 +1,64 @@
+.anime_card {
+  margin-bottom: 100px;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 20px;
+  box-shadow: 0 20px 40px -10px rgb(0, 0, 0);
+  img {
+    height: 350px;
+    width: 300px;
+    object-fit: contain;
+  }
+  .rating {
+    text-align: center;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background: white;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 18px;
+    margin: -25px auto;
+    margin-bottom: 0;
+  }
+  h3 {
+    text-align: center;
+    margin: 10px 0;
+    font-size: 20px;
+  }
+  .description {
+    display: flex;
+    justify-content: space-around;
+    p {
+      color: white;
+      font-size: 15px;
+      font-weight: bold;
+      border-radius: 50%;
+      height: 60px;
+      width: 60px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+  .dates {
+    display: flex;
+    justify-content: space-evenly;
+    color: grey;
+  }
+  &:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+    transition: 0.3s ease;
+    .description {
+      p {
+        transition: 0.3s ease;
+        background: white;
+        color: black;
+      }
+    }
+  }
+}

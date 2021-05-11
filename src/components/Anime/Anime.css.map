@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,QAAQ,CAAC;EACP,UAAU,EAAE,MAAM;EAClB,aAAa,EAAE,IAAI;EACnB,KAAK,EAAE,uBAAuB;CAC/B;;AACD,AAAA,MAAM,CAAC;EACL,OAAO,EAAE,IAAI;EACb,SAAS,EAAE,IAAI;EACf,eAAe,EAAE,YAAY;CAC9B",
+    "sources": [
+        "Anime.scss"
+    ],
+    "names": [],
+    "file": "Anime.css"
+}

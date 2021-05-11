@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,EAAE,CAAC;EACD,MAAM,EAAE,aAAa;EACrB,cAAc,EAAE,GAAG;CACpB;;AAED,AAAA,WAAW,CAAC;EACV,OAAO,EAAE,IAAI;EACb,SAAS,EAAE,IAAI;EACf,eAAe,EAAE,YAAY;CAC9B;;AACD,MAAM,EAAE,SAAS,EAAE,KAAK;EACtB,AAAA,EAAE,CAAC;IACD,UAAU,EAAE,MAAM;IAClB,SAAS,EAAE,IAAI;GAChB",
+    "sources": [
+        "OnlyMpvies.scss"
+    ],
+    "names": [],
+    "file": "OnlyMpvies.css"
+}
