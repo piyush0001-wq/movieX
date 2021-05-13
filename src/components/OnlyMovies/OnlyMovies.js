@@ -9,7 +9,7 @@ function OnlyMovies() {
   const [onlymovies, setonlyMovies] = React.useState([])
 
   const fetchOnlyMovies = async () => {
-    const { data } = await axios.get(`https://api.themoviedb.org/3/discover/movie?api_key=21f176f25df157c836a68afa9a117781&language=en-US&sort_by=popularity.desc&include_adult=false&include_video=false&page=${page}
+    const { data } = await axios.get(`https://api.themoviedb.org/3/discover/movie?api_key=yourAPI&language=en-US&sort_by=popularity.desc&include_adult=false&include_video=false&page=${page}
 `);
     setonlyMovies(data.results)
   }
