@@ -10,7 +10,7 @@ function Trending() {
   const [movies, setMovies] = useState([])
 
   const fetchMovies = async () => {
-    const { data } = await axios.get(`https://api.themoviedb.org/3/trending/all/day?api_key=21f176f25df157c836a68afa9a117781&page=${page}
+    const { data } = await axios.get(`https://api.themoviedb.org/3/trending/all/day?api_key=yourAPI&page=${page}
 `);
     setMovies(data.results)
   }
