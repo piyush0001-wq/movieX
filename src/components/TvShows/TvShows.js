@@ -11,7 +11,7 @@ function TvShows() {
   const [tvShows, settvShows] = React.useState([])
 
   const fetchTvShows = async () => {
-    const { data } = await axios.get(`https://api.themoviedb.org/3/discover/tv?api_key=21f176f25df157c836a68afa9a117781&language=en-US&page=${page}
+    const { data } = await axios.get(`https://api.themoviedb.org/3/discover/tv?api_key=yourApiKey&language=en-US&page=${page}
 `);
     settvShows(data.results)
   }
