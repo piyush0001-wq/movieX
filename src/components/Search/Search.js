@@ -14,7 +14,7 @@ function Search() {
   const fetchSearches = async () => {
 
 
-    const { data } = await axios.get(`https://api.themoviedb.org/3/search/movie?api_key=21f176f25df157c836a68afa9a117781&language=en-US&query=${searchInput}&page=${page}&include_adult=false`);
+    const { data } = await axios.get(`https://api.themoviedb.org/3/search/movie?api_key=yourAPIKey&language=en-US&query=${searchInput}&page=${page}&include_adult=false`);
 
     setSearchResult(data.results)
     setshowPagination(true)
